@@ -61,7 +61,7 @@ public class XmlResponseValidation {
         assertThat(email,equalTo("viva@keebler.biz"));
     }
 
-    
+
     private static void xmlResponseBodyValidationApproach3(){
 
         Response response = given()
